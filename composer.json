@@ -1,0 +1,14 @@
+{
+    "name": "salmanzafar/laravel-env-debugger",
+    "description": "A package that lets you debug .env files easily",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salman Zafar",
+            "email": "salmanzafar949@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

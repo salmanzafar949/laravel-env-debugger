@@ -8,7 +8,7 @@ class EnvDebuuger extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'EnvDebuuger';
+        return 'EnvDebugger';
     }
 
 }

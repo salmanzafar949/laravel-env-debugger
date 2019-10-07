@@ -3,6 +3,7 @@
 namespace Salman\EnvDebugger\Commands;
 
 use Illuminate\Console\Command;
+use Salman\EnvDebugger\Service\EnvDebuggerService;
 
 class EnvDebuggerCommand extends Command
 {
@@ -37,6 +38,8 @@ class EnvDebuggerCommand extends Command
      */
     public function handle()
     {
+        $output  = EnvDebuggerService::GetAppEnv();
 
+        $this->info($output);
     }
 }

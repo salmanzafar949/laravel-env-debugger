@@ -38,8 +38,8 @@ class EnvDebuggerCommand extends Command
      */
     public function handle()
     {
-        $output  = EnvDebuggerService::GetAppEnv();
 
-        $this->info($output);
+        $this->info(EnvDebuggerService::GetAppEnv());
     }
+
 }
